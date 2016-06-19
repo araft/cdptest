@@ -10,7 +10,8 @@ public class HelloWorldTest {
 	
 	@Before
 	public void setUp() {
-		 System.setOut(new PrintStream(outStream));
+
+		System.setOut(new PrintStream(outStream));
 	}
 	
 	@Test
